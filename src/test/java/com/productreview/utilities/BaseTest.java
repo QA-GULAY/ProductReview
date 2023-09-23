@@ -19,7 +19,6 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
-import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
     public WebDriver driver;
@@ -56,7 +55,10 @@ public class BaseTest {
 
         driver.manage().window().maximize();
         driver.get(ConfigReader.getProperties("url"));
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+
+// Create a WebDriverWait instance with a timeout
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait = new WebDriverWait(driver, Duration.ofSeconds(30));
     }
 
