@@ -4,29 +4,117 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b539ca05-1503-4a28-ae0f-49ef0d03c12d" name="Changes" comment="" />
+    <list default="true" id="b539ca05-1503-4a28-ae0f-49ef0d03c12d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/productreview/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/productreview/pages/PageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/productreview/tests/ReviewTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/productreview/utilities/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/productreview/utilities/BrowserUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/productreview/utilities/ConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/productreview/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/productreview/utilities/JavaScriptExecuter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2VcxLpgU0uCKepjGIlR2auIqgZn" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/SDET/GULAY QA/ProductReview/ProductReview/src/test/java/com/productreview",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SDET\GULAY QA\ProductReview\ProductReview\src\test\java\com\productreview" />
+      <recent name="D:\SDET\GULAY QA\ProductReview\ProductReview" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.productreview.pages" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.ReviewTest">
+    <configuration name="ReviewTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProductReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.productreview.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.productreview.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.productreview.tests.ReviewTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReviewTest.reviewTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProductReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.productreview.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.productreview.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.productreview.tests.ReviewTest" />
+      <option name="METHOD_NAME" value="reviewTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.ReviewTest" />
+        <item itemvalue="TestNG.ReviewTest.reviewTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -37,5 +125,8 @@
       <updated>1695149116841</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
