@@ -47,6 +47,7 @@ public class BaseTest {
         reports.setSystemInfo("Browser", ConfigReader.getProperties("browser"));
         reports.setSystemInfo("OS", "os.name");//OP opereyting sistem yani hangi sistemde calismis mac demi e¡windowstami
 
+
     }
 
     @BeforeMethod

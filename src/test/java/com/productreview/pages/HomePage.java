@@ -5,24 +5,27 @@ import org.openqa.selenium.support.FindBy;
 
 public class HomePage extends PageObject{
    @FindBy (xpath="//a[text()='Canon EOS 5D']")
-   private WebElement cameraLink;
+   private static WebElement cameraLink;
    @FindBy (xpath = "(//a[@data-toggle='tab'])[2]")
-   private WebElement reviewsButton;
+   private static WebElement reviewsButton;
 
    @FindBy(xpath = "//p[text()='There are no reviews for this product.']")
-   private WebElement message;
+   private static WebElement message;
 
-   //********Metodlar************//
+   public HomePage() {
+   }
+
+   //********Methods************//
    public void cameraLink(){
       cameraLink.click();
    }
 
-   public void reviewsButton(){
+   public  void reviewsButton(){
       reviewsButton.click();
 
    }
 
-   public String setMessage(){
+   public  String setMessage(){
       message.getText();
       return getText(message);
    }
