@@ -5,15 +5,16 @@ import com.productreview.utilities.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class ReviewTest extends BaseTest {
+public class ReviewsTest extends BaseTest {
     @Test
     public void reviewTest() {
-        HomePage homePage = new HomePage();
+        HomePage homePage=new HomePage();
+
         extentLogger = reports.createTest("Reivews Test");
 //        Kullanici Canon EOS 5D camera sayfasina girebilmeli
         homePage.cameraLink();
         extentLogger.info("camera asyfasini ac");
-//         Kulanici “Review “ butonuna tiklayabilmeli
+//         Kulanici “Reviews “ butonuna tiklayabilmeli
         homePage.reviewsButton();
         extentLogger.info("Reviews ac");
 

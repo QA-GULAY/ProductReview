@@ -23,7 +23,7 @@ public class PageObject {
         jse.executeScript("arguments[0].scrollIntoView();",element);
 
     }
-        public String getText(WebElement element){
+        public static String getText(WebElement element){
 
         return element.getText();
         }

@@ -3,6 +3,8 @@ package com.productreview.utilities;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import com.productreview.pages.CanonCameraPage;
+import com.productreview.pages.HomePage;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -46,6 +48,7 @@ public class BaseTest {
         reports.setSystemInfo("Environment", "QA");
         reports.setSystemInfo("Browser", ConfigReader.getProperties("browser"));
         reports.setSystemInfo("OS", "os.name");//OP opereyting sistem yani hangi sistemde calismis mac demi e¡windowstami
+
 
     }
 

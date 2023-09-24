@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b539ca05-1503-4a28-ae0f-49ef0d03c12d" name="Changes" comment="Yorumlar bolumu test edildi">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/productreview/pages/CanonCameraPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/productreview/tests/RatingsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/productreview/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/productreview/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/productreview/pages/PageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/productreview/pages/PageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/productreview/tests/ReviewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/productreview/tests/ReviewsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/productreview/utilities/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/productreview/utilities/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/productreview/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/productreview/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +70,8 @@
       <recent name="com.productreview.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ReviewTest">
-    <configuration name="ReviewTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.RatingsTest">
+    <configuration name="RatingsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProductReview" />
       <extension name="coverage">
         <pattern>
@@ -74,7 +80,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.productreview.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.productreview.tests.ReviewTest" />
+      <option name="MAIN_CLASS_NAME" value="com.productreview.tests.RatingsTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -82,7 +88,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReviewTest.reviewTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RatingsTest.ratingTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProductReview" />
       <extension name="coverage">
         <pattern>
@@ -91,7 +97,42 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.productreview.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.productreview.tests.ReviewTest" />
+      <option name="MAIN_CLASS_NAME" value="com.productreview.tests.RatingsTest" />
+      <option name="METHOD_NAME" value="ratingTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReviewsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProductReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.productreview.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.productreview.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.productreview.tests.ReviewsTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReviewsTest.reviewTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProductReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.productreview.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.productreview.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.productreview.tests.ReviewsTest" />
       <option name="METHOD_NAME" value="reviewTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -102,8 +143,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ReviewTest" />
-        <item itemvalue="TestNG.ReviewTest.reviewTest" />
+        <item itemvalue="TestNG.RatingsTest" />
+        <item itemvalue="TestNG.RatingsTest.ratingTest" />
+        <item itemvalue="TestNG.ReviewsTest" />
+        <item itemvalue="TestNG.ReviewsTest.reviewTest" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695480261127</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Yorumlar bolumu test edildi">
+      <option name="closed" value="true" />
+      <created>1695485886067</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695485886067</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
