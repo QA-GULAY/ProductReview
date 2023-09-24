@@ -11,13 +11,13 @@ public class CanonCameraPage extends PageObject {
     @FindBy(xpath = "//span[@class='fa fa-stack']")
     private   List<WebElement> stars;
 
-    //********Metodlar************//
+    //********Methods************//
 
     public  List<WebElement> star() {
 
         for (WebElement star : stars) {
             System.out.println("star = " + star.isSelected());
-            Assert.assertFalse(star.isSelected(), "Yildiz secili");
+            Assert.assertFalse(star.isSelected(), "Stars selected");
         }
         return stars;
     }

@@ -15,7 +15,7 @@ public class HomePage extends PageObject{
    public HomePage() {
    }
 
-   //********Metodlar************//
+   //********Methods************//
    public void cameraLink(){
       cameraLink.click();
    }
